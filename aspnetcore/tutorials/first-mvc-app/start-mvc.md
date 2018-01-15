@@ -46,7 +46,6 @@ ms.lasthandoff: 11/10/2017
 * **.NET Core 跨平台開發** (位在 [其他工具組] 下)
 
 ![**ASP.NET 與網頁程式開發** (位在 [Web & Cloud] (Web 與雲端)**** 下)](start-mvc/_static/web_workload.png)
-
 ![**.NET Core 跨平台開發** (位在 [其他工具組]**** 下)](start-mvc/_static/x_plat_wl.png)
 
 ---
@@ -96,7 +95,7 @@ Visual Studio 在您剛才建立的 MVC 專案中使用了預設範本。 您只
 <!-- These images are also used by uid: tutorials/first-mvc-app-xplat/start-mvc -->
 ![執行中的應用程式](start-mvc/_static/1.png)
 
-* Visual Studio 會啟動 [IIS Express](https://docs.microsoft.com/iis/extensions/introduction-to-iis-express/iis-express-overview)，並執行您的應用程式。 請注意，位址列會顯示 `localhost:port#`，而不是類似於 `example.com` 的內容。 這是因為 `localhost` 是本機電腦的標準主機名稱。 當 Visual Studio 建立 Web 專案時，會對網頁伺服器使用隨機連接埠。 在上圖中，連接埠號碼為 5000。 當您執行應用程式時，會看到不同的連接埠編號。
+* Visual Studio 會啟動 [IIS Express](https://docs.microsoft.com/iis/extensions/introduction-to-iis-express/iis-express-overview)，並執行您的應用程式。 請注意，位址列會顯示 `localhost:port#`，而不是類似於 `example.com` 的內容。 這是因為 `localhost` 是本機電腦的標準主機名稱。 當 Visual Studio 建立 Web 專案時，會對網頁伺服器使用隨機連接埠。 在上圖中，連接埠號碼為 5000，瀏覽器中的網址顯示localhost：5000。 當您執行應用程式時，會看到不同的連接埠編號。
 * 使用 **Ctrl + F5** (非偵錯模式) 啟動應用程式，可讓您變更程式碼、儲存檔案、重新整理瀏覽器，以及查看程式碼變更。 許多開發人員想要使用非偵錯模式，以便快速啟動應用程式並檢視變更。
 * 您可以從 [偵錯] 功能表項目的偵錯或非偵錯模式中啟動應用程式：
 
